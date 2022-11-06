@@ -723,6 +723,7 @@ main .btn-main-2:hover {
 
 .produktet .cont {
     padding: 0 12px;
+    margin: 0 150px;
 }
 
 .carousel-owl {
@@ -1010,6 +1011,8 @@ main .btn-main-2:hover {
 .pricing-panel {
     padding: 48px 12px;
     width: 100%;
+    margin: 0 auto;
+
 }
 
 .pricing-panel .pricing-container {
@@ -1556,6 +1559,7 @@ main .btn-main-2:hover {
 
 .contact2 {
     padding: 60px 0;
+    margin-bottom: 100px;
 }
 
 .contact-container {
@@ -1567,9 +1571,9 @@ main .btn-main-2:hover {
     padding-bottom: 40px;
 }
 
-.contact-title h4 {
-    font-size: 8px;
-    font-weight: 100;
+.contact-title h2 {
+    font-size: 15px;
+    font-weight: 400;
     padding: 0;
     line-height: 1px;
     margin: 0 0 5px 0;
@@ -3353,6 +3357,7 @@ main .btn-main-2:hover {
 .contact2 {
     padding: 60px 0;
     margin: 0;
+    margin-bottom: 100px;
 }
 
 .contact-container {
@@ -3364,24 +3369,11 @@ main .btn-main-2:hover {
 
 .contact-title {
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .contact-title h4 {
-    font-size: 8px;
-    font-weight: 100;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #a6a5a5;
-}
-.contact-title p {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #2a2c39;
+    font-size: 6px;
 }
 
 .contact-form2 {
@@ -3417,7 +3409,6 @@ main .btn-main-2:hover {
 .contact2 .info-contact p {
     padding-left: 60px;
 }
-
 
 
 .right-contact .form-name-email {
