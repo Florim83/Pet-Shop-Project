@@ -1372,7 +1372,7 @@ main .btn-main-2:hover {
 
 
 /* CONTACT BEGIN=====================================================================*/
-#contc {
+/* #contc {
     overflow: hidden;
 }
 
@@ -1540,21 +1540,27 @@ main .btn-main-2:hover {
         width: 100%;
         margin-left: 0;
     }
-}
+} */
 
 /* CONTACT END=========================================================================== */
+
+
+
+
+
+
+
+
 
 /* CONTACT2 BEGIN==================================================================== */
 
 .contact2 {
     padding: 60px 0;
-    border: 2px solid red;
 }
 
 .contact-container {
     padding: 0 12px;
     margin: 0 150px;
-    border: 2px solid blue;
 }
 
 .contact-title {
@@ -3343,7 +3349,164 @@ main .btn-main-2:hover {
 
 /* BLOG RESPONSIVE END============================================================================== */
 
+/* CONTACT2 RESPONSIVE BEGIN================ */
+.contact2 {
+    padding: 60px 0;
+    margin: 0;
+}
 
+.contact-container {
+    padding: 0 12px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    padding-bottom: 40px;
+}
+
+.contact-title h4 {
+    font-size: 8px;
+    font-weight: 100;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a6a5a5;
+}
+.contact-title p {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2a2c39;
+}
+
+.contact-form2 {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-contact {
+    padding: 0 12px;
+    width: 100%;
+}
+
+.right-contact {
+    padding: 0 12px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.contact2 .email {
+    margin-top: 40px;
+}
+
+.contact2 .phone{
+    margin-top: 40px;
+}
+
+.contact2 .info-contact h4 {
+    padding-left: 60px;
+    margin-bottom: 5px;
+}
+
+.contact2 .info-contact p {
+    padding-left: 60px;
+}
+
+
+
+.right-contact .form-name-email {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+.right-contact .form-name-email .name2 {
+    width: 50%;
+}
+
+.right-contact .form-name-email .email2 {
+    width: 50%;
+}
+
+.name2 input {
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    color: #212529;
+    height: 44px;
+    width: 100%;
+}
+
+.email2 input {
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    color: #212529;
+    height: 44px;
+    width: 100%;
+}
+
+.form-subject input {
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    color: #212529;
+    height: 44px;
+}
+
+.form-message input{
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    color: #212529;
+    height: 44px;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.form-submit button {
+    background: var(--primary-color);
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.right-contact .form-subject {
+    margin-top: 16px;
+    padding-bottom: 8px;
+}
+
+.right-contact .form-message {
+    margin-top: 16px;
+    padding-bottom: 8px;
+}
+
+.right-contact .form-submit{
+
+}
 
 
 
