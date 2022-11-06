@@ -72,8 +72,6 @@
 .top {
     display: flex;
     justify-content: space-between;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     align-items: center;
     width: 100%;
 }
@@ -90,7 +88,6 @@
     /* padding-left: 100px; */
     margin-left: 100px;
 }
-
 
 
 
@@ -470,8 +467,6 @@ main .btn-main-2:hover {
 }
 
 .about-us .row-about {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -612,12 +607,7 @@ main .btn-main-2:hover {
 
 .row-services {
     padding: 0 100px;
-    /* display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex-wrap: wrap; */
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(700px, 1fr)); */
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
 }
@@ -680,6 +670,8 @@ main .btn-main-2:hover {
     margin-left: 20px;
 }
 
+/* w7 8 */
+
 .service11 {
     background: rgb(238, 238, 238);
     padding: 25px 10px;
@@ -735,12 +727,11 @@ main .btn-main-2:hover {
     margin: 0 auto;
 }
 
+
 .carousel-owl .pb-5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
     text-align: center;
     margin: 0 20px;
     padding: 25px;
@@ -1026,7 +1017,7 @@ main .btn-main-2:hover {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
     margin: 0 150px;
 }
 
@@ -1037,6 +1028,8 @@ main .btn-main-2:hover {
 }
 
 .price-col-inside {
+    display: grid;
+    grid-template-columns: 1fr;
     text-align: center;
     background-color: #F3F3F3;
     margin-top: 48px;
@@ -1201,10 +1194,10 @@ main .btn-main-2:hover {
 
 .team .team-slider {
     display: flex;
+    justify-content: flex-start;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    justify-content: flex-start;
     width: 100%;
     /* margin-top: 100%; */
     overflow: hidden;
@@ -1661,6 +1654,8 @@ main .btn-main-2:hover {
 
 
 
+
+
 /* SECTION MAP BEGIN======================================================================*/
 .map {
     overflow: hidden;
@@ -1705,8 +1700,6 @@ footer {
 .row{
 	display: flex;
 	flex-wrap: wrap;
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr); */
 }
 
 
@@ -2345,6 +2338,9 @@ main .btn-main-2:hover {
     color: var(--primary-color);
 }
 /* SERVICES RESPONSIVE END================================================================ */
+
+
+
 
 /* PRODUCTS RESPONSIVE BEGIN============================================================= */
 .produktet {
